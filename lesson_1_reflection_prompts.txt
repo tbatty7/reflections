@@ -21,17 +21,16 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    use git log first to look at the names of the commits and then use git diff
+    to compare commits.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    You could always go back and revert to how things were before, even if
+    changing multiple files.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
-
-    Now that you have your workspace set up, what do you want to try using Git for?
-
-    I want to do practise exercises, but eventually for jobs I guess.
+    eventually use it for exercism.io and for the Grand Circus pre-work.
+    I want to eventually use it for jobs I guess.
