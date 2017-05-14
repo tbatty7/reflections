@@ -2,9 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 You create a new git repository and this is the first step in starting to use git
 for your project.  It creates a .git file in the folder, and all the files in
-that folder become untracked, they are the master and head and initial commit
-but no commit is automatically created for you.  You have to manually add the
-files you want to the staging area and then commit them.
+that folder become untracked, they are the master and initial commit
+but no commit is automatically created for you and so there is no head yet.  You
+have to manually add the files you want to the staging area and then commit them
+in order to create your first commit.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -22,10 +23,28 @@ logical change at a time.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+ When you are wanting to try something new that might break the game or might
+ make it better.  That way if you wanted to show what works to someone before
+ you complete the modifications, you can just go back to the master branch.
+
 How do the diagrams help you visualize the branch structure?
+
+They help you remember where you are at with the branches and what needs to be
+done to get back to a branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When you merge two branches together, you combine all the changes from both
+branches and can eliminate the name of the one branch to complete an addition.
+It is represented the way it is so you can see all the merges involved along
+the way.  It is like a regular commit, but it had several steps to get it where
+it needed to be to merge it and in the mean time, the master had some changes
+made to it.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Git's auto merge is quick and easier and works well as long as it is simple, but
+it defaults to the manual when neccessary.  You cannot use automatic if you have
+changed the same line on the same file.
