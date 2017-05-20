@@ -38,5 +38,12 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+    
+    When I am collaborating with a group of people that need to make pull
+    requests to make changes to master.  Then you can push your branch and
+    make a pull request to get their approval before the merge.  If you are 
+    just working on a project by yourself or with a small group, there is
+    no need to use pull requests and you can make changes directly to the 
+    master by just talking with people.  If you have a bunch of people, it
+    is better to use seperate branches, push them and the make pull requests.
+    
